@@ -1,4 +1,3 @@
-#python -m streamlit run dashboard.py
 import streamlit as st 
 import pandas as pd
 import glob
