@@ -6,8 +6,12 @@ from pandas import json_normalize
 import os
 from flask import  jsonify
 
+#Enviromental Variables
+
 PLUGGY_CLIENT_ID = os.getenv('PLUGGY_CLIENT_ID')
 PLUGGY_CLIENT_SECRET = os.getenv('PLUGGY_CLIENT_SECRET')
+
+#Funções
 
 def categoriesRemap(category_id, categories): 
     for category in categories:
