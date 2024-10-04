@@ -3,6 +3,8 @@ from src import fetchTransactions, fetchAccounts
 
 app = Flask(__name__)
 
+#Rotas
+
 @app.route('/',methods=['GET'])
 def get():
     return jsonify({'msg': 'Server running'})
