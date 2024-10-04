@@ -4,7 +4,7 @@ import { PluggyConnect } from 'react-pluggy-connect';
 import './App.css';
 
 const {
-  REACT_APP_CONNECT_TOKEN_API_URL: connectTokenApiUrl = '', 
+  REACT_APP_CONNECT_TOKEN_API_URL: connectTokenApiUrl = 'Insert URL here', 
 } = process.env;
 
 if (!connectTokenApiUrl) {
