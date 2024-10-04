@@ -3,12 +3,8 @@ import { PluggyConnect } from 'react-pluggy-connect';
 
 import './App.css';
 
-/**
- * TODO: replace this URL with your own API returning an { accessToken } object
- * with your Pluggy connect token
- */
 const {
-  REACT_APP_CONNECT_TOKEN_API_URL: connectTokenApiUrl = 'https://endpointteste.vercel.app/api/token',
+  REACT_APP_CONNECT_TOKEN_API_URL: connectTokenApiUrl = '', 
 } = process.env;
 
 if (!connectTokenApiUrl) {
